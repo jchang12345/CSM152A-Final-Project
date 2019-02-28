@@ -1,0 +1,128 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Dec 05 14:12:23 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "VGA_B<0>" LOCATE = SITE "R7" LEVEL 1;
+COMP "VGA_B<1>" LOCATE = SITE "T7" LEVEL 1;
+COMP "VGA_G<0>" LOCATE = SITE "P8" LEVEL 1;
+COMP "VGA_G<1>" LOCATE = SITE "T6" LEVEL 1;
+COMP "VGA_G<2>" LOCATE = SITE "V6" LEVEL 1;
+COMP "VGA_R<0>" LOCATE = SITE "U7" LEVEL 1;
+COMP "VGA_R<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "VGA_R<2>" LOCATE = SITE "N7" LEVEL 1;
+COMP "VGA_HS_O" LOCATE = SITE "N6" LEVEL 1;
+COMP "VGA_VS_O" LOCATE = SITE "P7" LEVEL 1;
+COMP "CLK" LOCATE = SITE "V10" LEVEL 1;
+COMP "RST_BTN" LOCATE = SITE "B8" LEVEL 1;
+COMP "adj" LOCATE = SITE "T5" LEVEL 1;
+COMP "duck" LOCATE = SITE "T9" LEVEL 1;
+COMP "jump" LOCATE = SITE "T10" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "pause" LOCATE = SITE "A8" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "num<0>" LOCATE = SITE "N8" LEVEL 1;
+COMP "num<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "num<2>" LOCATE = SITE "V8" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "cnt_13" BEL "cnt_14" BEL "cnt_15" BEL
+        "pause_debouncer/counter_2" BEL "pause_debouncer/counter_0" BEL
+        "pause_debouncer/counter_1" BEL "pause_debouncer/counter_3" BEL
+        "pause_debouncer/counter_4" BEL "pause_debouncer/counter_7" BEL
+        "pause_debouncer/counter_5" BEL "pause_debouncer/counter_6" BEL
+        "pause_debouncer/counter_8" BEL "pause_debouncer/counter_9" BEL
+        "pause_debouncer/counter_12" BEL "pause_debouncer/counter_10" BEL
+        "pause_debouncer/counter_11" BEL "pause_debouncer/counter_13" BEL
+        "pause_debouncer/counter_14" BEL "pause_debouncer/counter_17" BEL
+        "pause_debouncer/counter_15" BEL "pause_debouncer/counter_16" BEL
+        "pause_debouncer/counter_18" BEL "pause_debouncer/counter_19" BEL
+        "pause_debouncer/counter_20" BEL "rst_debouncer/counter_0" BEL
+        "rst_debouncer/counter_1" BEL "rst_debouncer/counter_4" BEL
+        "rst_debouncer/counter_2" BEL "rst_debouncer/counter_3" BEL
+        "rst_debouncer/counter_5" BEL "rst_debouncer/counter_6" BEL
+        "rst_debouncer/counter_9" BEL "rst_debouncer/counter_7" BEL
+        "rst_debouncer/counter_8" BEL "rst_debouncer/counter_10" BEL
+        "rst_debouncer/counter_11" BEL "rst_debouncer/counter_14" BEL
+        "rst_debouncer/counter_12" BEL "rst_debouncer/counter_13" BEL
+        "rst_debouncer/counter_15" BEL "rst_debouncer/counter_16" BEL
+        "rst_debouncer/counter_19" BEL "rst_debouncer/counter_17" BEL
+        "rst_debouncer/counter_18" BEL "rst_debouncer/counter_20" BEL
+        "lUls/counterlvl_3" BEL "lUls/counterlvl_2" BEL "lUls/counterlvl_1"
+        BEL "lUls/counterlvl_0" BEL "lUls/level1_out_3" BEL
+        "lUls/level1_out_2" BEL "lUls/level1_out_1" BEL "lUls/score1_out_3"
+        BEL "lUls/score1_out_2" BEL "lUls/score1_out_1" BEL
+        "lUls/score1_out_0" BEL "lUls/score10_out_3" BEL "lUls/score10_out_2"
+        BEL "lUls/score10_out_1" BEL "lUls/score10_out_0" BEL "obs/s_8_17" BEL
+        "obs/s_8_16" BEL "obs/s_8_15" BEL "obs/s_8_14" BEL "obs/s_8_13" BEL
+        "obs/s_8_12" BEL "obs/s_8_11" BEL "obs/s_8_10" BEL "obs/s_8_9" BEL
+        "obs/s_8_8" BEL "obs/s_8_7" BEL "obs/s_8_6" BEL "obs/s_8_5" BEL
+        "obs/s_8_4" BEL "obs/s_8_3" BEL "obs/s_8_2" BEL "obs/s_8_1" BEL
+        "obs/s_8_0" BEL "obs/lev_cnt_3" BEL "obs/lev_cnt_2" BEL
+        "obs/lev_cnt_1" BEL "obs/lev_cnt_0" BEL "obs/alt_2" BEL "obs/alt_1"
+        BEL "obs/alt_0" BEL "obs/score" BEL "rst_debouncer/debouncedbutton"
+        BEL "pause_debouncer/debouncedbutton" BEL "obs/color" BEL
+        "display/h_count_9" BEL "display/h_count_8" BEL "display/h_count_7"
+        BEL "display/h_count_6" BEL "display/h_count_5" BEL
+        "display/h_count_4" BEL "display/h_count_3" BEL "display/h_count_2"
+        BEL "display/h_count_1" BEL "display/h_count_0" BEL "obs/x_8_106" BEL
+        "obs/x_8_103" BEL "obs/x_8_102" BEL "obs/x_8_99" BEL "obs/x_8_98" BEL
+        "obs/x_8_97" BEL "obs/x_8_96" BEL "obs/x_8_94" BEL "obs/x_8_91" BEL
+        "obs/x_8_90" BEL "obs/x_8_87" BEL "obs/x_8_86" BEL "obs/x_8_85" BEL
+        "obs/x_8_84" BEL "obs/x_8_82" BEL "obs/x_8_79" BEL "obs/x_8_78" BEL
+        "obs/x_8_75" BEL "obs/x_8_74" BEL "obs/x_8_73" BEL "obs/x_8_72" BEL
+        "obs/x_8_70" BEL "obs/x_8_67" BEL "obs/x_8_66" BEL "obs/x_8_63" BEL
+        "obs/x_8_62" BEL "obs/x_8_61" BEL "obs/x_8_60" BEL "obs/x_8_58" BEL
+        "obs/x_8_55" BEL "obs/x_8_54" BEL "obs/x_8_51" BEL "obs/x_8_50" BEL
+        "obs/x_8_49" BEL "obs/x_8_48" BEL "obs/x_8_46" BEL "obs/x_8_43" BEL
+        "obs/x_8_42" BEL "obs/x_8_39" BEL "obs/x_8_38" BEL "obs/x_8_37" BEL
+        "obs/x_8_36" BEL "obs/x_8_34" BEL "obs/x_8_31" BEL "obs/x_8_30" BEL
+        "obs/x_8_27" BEL "obs/x_8_26" BEL "obs/x_8_25" BEL "obs/x_8_24" BEL
+        "obs/x_8_22" BEL "obs/x_8_19" BEL "obs/x_8_18" BEL "obs/x_8_15" BEL
+        "obs/x_8_14" BEL "obs/x_8_13" BEL "obs/x_8_12" BEL "obs/x_8_3" BEL
+        "obs/x_8_2" BEL "obs/x_8_1" BEL "obs/x_8_0" BEL
+        "mycharacters/handsleft/y_6" BEL "display/v_count_3" BEL
+        "display/v_count_1" BEL "display/v_count_0" BEL
+        "mycharacters/handsleft/y_3" BEL "mycharacters/handsleft/y_1" BEL
+        "display/v_count_9" BEL "display/v_count_8" BEL "display/v_count_7"
+        BEL "display/v_count_6" BEL "display/v_count_5" BEL
+        "display/v_count_4" BEL "display/v_count_2" BEL "obs/x_8_104" BEL
+        "obs/x_8_101" BEL "obs/x_8_100" BEL "obs/x_8_92" BEL "obs/x_8_89" BEL
+        "obs/x_8_88" BEL "obs/x_8_80" BEL "obs/x_8_77" BEL "obs/x_8_76" BEL
+        "obs/x_8_69" BEL "obs/x_8_68" BEL "obs/x_8_65" BEL "obs/x_8_64" BEL
+        "obs/x_8_57" BEL "obs/x_8_56" BEL "obs/x_8_53" BEL "obs/x_8_52" BEL
+        "obs/x_8_45" BEL "obs/x_8_44" BEL "obs/x_8_41" BEL "obs/x_8_40" BEL
+        "obs/x_8_33" BEL "obs/x_8_32" BEL "obs/x_8_29" BEL "obs/x_8_28" BEL
+        "obs/x_8_21" BEL "obs/x_8_20" BEL "obs/x_8_17" BEL "obs/x_8_16" BEL
+        "obs/x_8_10" BEL "obs/x_8_9" BEL "obs/x_8_8" BEL "obs/x_8_7" BEL
+        "obs/x_8_6" BEL "obs/x_8_5" BEL "obs/x_8_4" BEL "obs/pause_state" BEL
+        "lUls/done" BEL "U1/counter_fast_1" BEL "U1/counter_fast_0" BEL
+        "U1/counter_fast_2" BEL "U1/counter_fast_3" BEL "U1/counter_fast_6"
+        BEL "U1/counter_fast_4" BEL "U1/counter_fast_5" BEL
+        "U1/counter_fast_7" BEL "U1/counter_fast_8" BEL "U1/counter_fast_11"
+        BEL "U1/counter_fast_9" BEL "U1/counter_fast_10" BEL
+        "U1/counter_fast_12" BEL "U1/counter_fast_13" BEL "U1/counter_fast_16"
+        BEL "U1/counter_fast_14" BEL "U1/counter_fast_15" BEL
+        "U1/counter_fast_17" BEL "U1/counter_fast_18" BEL
+        "display/h_count_7_1" BEL "display/h_count_6_1" BEL
+        "display/h_count_5_1" BEL "display/h_count_9_1" BEL
+        "display/h_count_8_1" BEL "display/h_count_8_2" BEL
+        "display/h_count_9_2" BEL "display/h_count_6_2" BEL
+        "display/h_count_5_2" BEL "display/v_count_8_1" BEL
+        "display/v_count_9_1" BEL "obs/x_8_50_1" BEL "obs/x_8_51_1" BEL
+        "obs/x_8_52_1" BEL "obs/x_8_53_1" BEL "obs/x_8_74_1" BEL
+        "obs/x_8_101_1" BEL "obs/x_8_98_1" BEL "U1/segclk" BEL
+        "lUls/level1_out_0" BEL "obs/x_8_32_1" BEL "obs/x_8_34_1" BEL
+        "obs/x_8_26_1" BEL "obs/x_8_28_1" BEL "obs/x_8_27_1" BEL
+        "obs/x_8_40_1" BEL "obs/x_8_41_1" BEL "obs/x_8_98_2" BEL
+        "CLK_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

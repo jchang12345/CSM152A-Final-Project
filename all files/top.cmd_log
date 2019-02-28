@@ -1,0 +1,430 @@
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_19_18_TimeToExplore/top.xst" -ofn "C:/Users/152/Lab4_11_19_18_TimeToExplore/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_19_18_TimeToExplore/top.xst" -ofn "C:/Users/152/Lab4_11_19_18_TimeToExplore/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_19_18_TimeToExplore/top.xst" -ofn "C:/Users/152/Lab4_11_19_18_TimeToExplore/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_19_18_TimeToExplore/top.xst" -ofn "C:/Users/152/Lab4_11_19_18_TimeToExplore/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_20_18_TimeToExplore/top.xst" -ofn "C:/Users/152/Lab4_11_20_18_TimeToExplore/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_20_18_TimeToExplore/top.xst" -ofn "C:/Users/152/Lab4_11_20_18_TimeToExplore/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_20_18_TimeToExplore/top.xst" -ofn "C:/Users/152/Lab4_11_20_18_TimeToExplore/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_20_18_TimeToExplore/top.xst" -ofn "C:/Users/152/Lab4_11_20_18_TimeToExplore/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_20_18_TimeToExplore/top.xst" -ofn "C:/Users/152/Lab4_11_20_18_TimeToExplore/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_21_18/top.xst" -ofn "C:/Users/152/Lab4_11_21_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_26_18/top.xst" -ofn "C:/Users/152/Lab4_11_26_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_27_18/top.xst" -ofn "C:/Users/152/Lab4_11_27_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_27_18/top.xst" -ofn "C:/Users/152/Lab4_11_27_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_27_18/top.xst" -ofn "C:/Users/152/Lab4_11_27_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_27_18/top.xst" -ofn "C:/Users/152/Lab4_11_27_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_27_18/top.xst" -ofn "C:/Users/152/Lab4_11_27_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_27_18/top.xst" -ofn "C:/Users/152/Lab4_11_27_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_27_18/top.xst" -ofn "C:/Users/152/Lab4_11_27_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_11_27_18/top.xst" -ofn "C:/Users/152/Lab4_11_27_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4PotentialChanges/top.xst" -ofn "C:/Users/152/Lab4PotentialChanges/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/12_3_18_maybe/top.xst" -ofn "C:/Users/152/12_3_18_maybe/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_4_18_from12318/top.xst" -ofn "C:/Users/152/Lab4_12_4_18_from12318/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_4_18_from12318/top.xst" -ofn "C:/Users/152/Lab4_12_4_18_from12318/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_4_18_from12318/top.xst" -ofn "C:/Users/152/Lab4_12_4_18_from12318/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_4_18_from12318/top.xst" -ofn "C:/Users/152/Lab4_12_4_18_from12318/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_4_18_from12318/top.xst" -ofn "C:/Users/152/Lab4_12_4_18_from12318/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_4_18_from12318/top.xst" -ofn "C:/Users/152/Lab4_12_4_18_from12318/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Lab4_12_5_18/top.xst" -ofn "C:/Users/152/Lab4_12_5_18/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintfile.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf constraintfile.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 

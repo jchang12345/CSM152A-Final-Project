@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/152/Lab4_12_6_18/game_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="game_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/game_test/hs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hs</obj_property>
+      <obj_property name="ObjectShortName">hs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/vs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vs</obj_property>
+      <obj_property name="ObjectShortName">vs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/red" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">red[2:0]</obj_property>
+      <obj_property name="ObjectShortName">red[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/green" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">green[2:0]</obj_property>
+      <obj_property name="ObjectShortName">green[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/blue" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">blue[1:0]</obj_property>
+      <obj_property name="ObjectShortName">blue[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/seg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/an" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/pause" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pause</obj_property>
+      <obj_property name="ObjectShortName">pause</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/chooselvl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">chooselvl</obj_property>
+      <obj_property name="ObjectShortName">chooselvl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/jump" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/duck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">duck</obj_property>
+      <obj_property name="ObjectShortName">duck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/adj" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adj</obj_property>
+      <obj_property name="ObjectShortName">adj</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/num" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">num[2:0]</obj_property>
+      <obj_property name="ObjectShortName">num[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/display/o_hs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_hs</obj_property>
+      <obj_property name="ObjectShortName">o_hs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/display/o_vs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_vs</obj_property>
+      <obj_property name="ObjectShortName">o_vs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/display/o_animate" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_animate</obj_property>
+      <obj_property name="ObjectShortName">o_animate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/display/o_active" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">o_active</obj_property>
+      <obj_property name="ObjectShortName">o_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/display/o_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">o_x[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/display/o_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o_y[8:0]</obj_property>
+      <obj_property name="ObjectShortName">o_y[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/display/h_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">h_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">h_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/display/v_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">v_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">v_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/display/i_pix_stb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_pix_stb</obj_property>
+      <obj_property name="ObjectShortName">i_pix_stb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/jump" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/duck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">duck</obj_property>
+      <obj_property name="ObjectShortName">duck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/pause" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pause</obj_property>
+      <obj_property name="ObjectShortName">pause</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/o_x0l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o_x0l[11:0]</obj_property>
+      <obj_property name="ObjectShortName">o_x0l[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/o_hl_y1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o_hl_y1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">o_hl_y1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">x[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[8:0]</obj_property>
+      <obj_property name="ObjectShortName">y[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/game_test/game/animate" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">animate</obj_property>
+      <obj_property name="ObjectShortName">animate</obj_property>
+   </wvobject>
+</wave_config>

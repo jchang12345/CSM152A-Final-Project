@@ -1,0 +1,7 @@
+verilog work "vga640x480.v"
+verilog work "SegDisp.v"
+verilog work "rdebouncer.v"
+verilog work "obstacles.v"
+verilog work "clockdiv.v"
+verilog work "CHARACTERMODULE.v"
+verilog work "top.v"

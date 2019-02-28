@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/152/Lab4_12_6_18/obstacles.v" Line 162: Redeclaration of ansi port <arg fmt="%s" index="1">lev</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/152/Lab4_12_6_18/obstacles.v" Line 164: Redeclaration of ansi port <arg fmt="%s" index="1">score</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/152/Lab4_12_6_18/obstacles.v" Line 165: Redeclaration of ansi port <arg fmt="%s" index="1">color</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/152/Lab4_12_6_18/clockdiv.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">segclk</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/152/Lab4_12_6_18/clockdiv.v" Line 30: Redeclaration of ansi port <arg fmt="%s" index="1">clk_db</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/152/Lab4_12_6_18/clockdiv.v" Line 31: Redeclaration of ansi port <arg fmt="%s" index="1">clk_db_d</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1591" delta="unknown" >"C:/Users/152/Lab4_12_6_18/CHARACTERMODULE.v" Line 129: Root scope declaration is not allowed in verilog 95/2K mode
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/152/Lab4_12_6_18/top.v" Line 157: Port <arg fmt="%s" index="1">o_blanking</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/152/Lab4_12_6_18/top.v" Line 270: Port <arg fmt="%s" index="1">sel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/152/Lab4_12_6_18/top.v" Line 385: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">lev</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+</messages>
+

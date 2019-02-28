@@ -1,0 +1,47 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/152/Lab4_12_6_18/game_test_isim_beh.exe" -prj "C:/Users/152/Lab4_12_6_18/game_test_beh.prj" "work.game_test" "work.glbl" 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/152/Lab4_12_6_18/vga640x480.v" into library work
+Analyzing Verilog file "C:/Users/152/Lab4_12_6_18/SegDisp.v" into library work
+Analyzing Verilog file "C:/Users/152/Lab4_12_6_18/obstacles.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/152/Lab4_12_6_18/obstacles.v" Line 162: Redeclaration of ansi port lev is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/152/Lab4_12_6_18/obstacles.v" Line 164: Redeclaration of ansi port score is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/152/Lab4_12_6_18/obstacles.v" Line 165: Redeclaration of ansi port color is not allowed
+Analyzing Verilog file "C:/Users/152/Lab4_12_6_18/clockdiv.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/152/Lab4_12_6_18/clockdiv.v" Line 29: Redeclaration of ansi port segclk is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/152/Lab4_12_6_18/clockdiv.v" Line 30: Redeclaration of ansi port clk_db is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/152/Lab4_12_6_18/clockdiv.v" Line 31: Redeclaration of ansi port clk_db_d is not allowed
+Analyzing Verilog file "C:/Users/152/Lab4_12_6_18/CHARACTERMODULE.v" into library work
+WARNING:HDLCompiler:1591 - "C:/Users/152/Lab4_12_6_18/CHARACTERMODULE.v" Line 129: Root scope declaration is not allowed in verilog 95/2K mode
+Analyzing Verilog file "C:/Users/152/Lab4_12_6_18/top.v" into library work
+Analyzing Verilog file "C:/Users/152/Lab4_12_6_18/game_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/152/Lab4_12_6_18/top.v" Line 157: Port o_blanking is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/152/Lab4_12_6_18/top.v" Line 270: Port sel is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/Users/152/Lab4_12_6_18/top.v" Line 385: Size mismatch in connection of port <lev>. Formal port size is 32-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module vga640x480
+Compiling module clockdiv
+Compiling module levelscore
+Compiling module digit_display
+Compiling module altfull_display
+Compiling module obstacles_default
+Compiling module characterpartshl_default
+Compiling module characterpartshr_default
+Compiling module characterpartslr_default
+Compiling module characterpartsll_default
+Compiling module characterpartsbody_default
+Compiling module characterpartshead_default
+Compiling module character
+Compiling module top_default
+Compiling module game_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable C:/Users/152/Lab4_12_6_18/game_test_isim_beh.exe
+Fuse Memory Usage: 30300 KB
+Fuse CPU Usage: 748 ms
